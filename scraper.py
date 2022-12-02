@@ -31,8 +31,6 @@ def get_citations_needed_report(url):
     return report
 
 
-
-
 if __name__ == "__main__":
-    #print(get_citations_needed_count('https://en.wikipedia.org/wiki/History_of_Earth'))
+    print(get_citations_needed_count('https://en.wikipedia.org/wiki/History_of_Earth'))
     print(get_citations_needed_report('https://en.wikipedia.org/wiki/History_of_Earth'))
